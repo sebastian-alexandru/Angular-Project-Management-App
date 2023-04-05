@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "name": "Portfolio-Website",
+      "description": "A completely-responsive portfolio-website",
+      "url": "https://sebastian-alexandru.netlify.app/",
+      "imageUrl": "assets/img/Portfolio.PNG",
+      "id": 1
+    },
+    {
+      "name": "Calculator",
+      "description": "A simple JavaScript Calculator",
+      "url": "https://github.com/sebastian-alexandru/Calculator",
+      "imageUrl": "assets/img/Calculator.png",
+      "id": 2
+    },
+    {
+      "name": "Football-MERN-App",
+      "description": "CRUD application using MERN stack",
+      "url": "https://github.com/sebastian-alexandru/Football-MERN-App-Frontend",
+      "imageUrl": "assets/img/Soccer-MERN.png",
+      "id": 3
+    },
+    {
+      "name": "Server-App",
+      "description": "CRUD application for managing servers and checking their status",
+      "url": "https://github.com/sebastian-alexandru/Server-App-Frontend",
+      "imageUrl": "assets/img/server.png",
+      "id": 4
+    },
+    {
+      "name": "SortByExtensionScript",
+      "description": "Python Script for grouping files in new directories by extension",
+      "url": "https://github.com/sebastian-alexandru/SortByExtensionScript",
+      "imageUrl": "assets/img/python.png",
+      "id": 5
+    },
+    {
+      "name": "2048_JS",
+      "description": "Small project that helped me learn basic JavaScript and programming notions such as array methods, maps, DOM manipulation, events, loops, 2d arrays",
+      "url": "https://github.com/sebastian-alexandru/2048",
+      "imageUrl": "assets/img/2048.png",
+      "id": 6
+    },
+    {
+      "name": "Kafka-Map-Streaming-App",
+      "description": "Application used for managing geospatial locations stored as GeoJSON objects such as Points, LineStrings and Polygons",
+      "url": "https://github.com/sebastian-alexandru/Kafka-Map-Streaming-App-Frontend",
+      "imageUrl": "assets/img/ngmap.png",
+      "id": 7
+    },
+    {
+      "name": "React_CRUD-App",
+      "description": "A React CRUD App created using Tailwind CSS, Axios, React-Router-Dom and Json-Server",
+      "url": "https://github.com/sebastian-alexandru/React_CRUD-App",
+      "imageUrl": "assets/img/React-CRUD.png",
+      "id": 8
+    }
+  ]
+}

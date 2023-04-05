@@ -1,0 +1,25 @@
+mat-card {
+    transition: transform 250ms;
+    background-color: rgba(180, 180, 180, 0.3);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+mat-card:hover {
+    cursor: pointer;
+    transform: translateY(-10px) scale(1.05);
+}
+
+mat-divider {
+    padding: 1%;
+}
+
+mat-card-content > * {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 240px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}

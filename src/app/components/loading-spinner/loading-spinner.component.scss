@@ -1,0 +1,11 @@
+.loading-container{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(100, 100, 100, 0.4);
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}

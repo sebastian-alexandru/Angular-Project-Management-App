@@ -1,0 +1,5 @@
+<div class="flex-container">
+    <div class="flex-item" *ngFor="let entry of projectService.entries$ | async" [hidden]="entry.hidden">
+        <app-card-element [project]=entry></app-card-element>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+<mat-card class="example-card">
+  <mat-card-header>
+      <mat-card-title>{{ project.name }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+      <mat-divider></mat-divider>
+      <div><img mat-card-xl-image [src]="project.imageUrl" ></div>
+      <mat-divider></mat-divider>
+      <span>{{ project.description }}</span>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-icon-button color="primary" (click)="openWebsite(project.url)">
+      <mat-icon>open_in_new</mat-icon>
+    </button>
+    <button mat-icon-button color="accent" (click)="openEditEntryForm(project)">
+      <mat-icon>edit</mat-icon>
+    </button>
+    <div (click)="uploadFile.click()">
+      <button mat-icon-button style="color:#333">
+        <mat-icon>add</mat-icon>
+      </button>
+      <input #uploadFile (change)="uploadImage($event)" type='file' accept=".png, .jpg" style="display:none"/> 
+    </div>
+    <button mat-icon-button (click)="hideProject(project)">
+      <mat-icon>visibility_off</mat-icon>
+    </button>
+    <button mat-icon-button color="warn" (click)="deleteProject(project.id)">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </mat-card-actions>
+</mat-card>
