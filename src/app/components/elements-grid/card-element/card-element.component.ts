@@ -19,7 +19,6 @@ export class CardElementComponent {
   ) {}
   @Input() project!: IProject;
 
-  // url: string = "assets/img/imageProject1.jpg";
   imageUrl: string = "assets/img/imageProject1.jpg";
 
   openEditEntryForm(data: IProject) {
